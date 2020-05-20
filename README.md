@@ -4,7 +4,9 @@ A Flutter Application that shows an interactive interface to view time in variou
 
 ## Features
 <ol>
-  <li> <b>Loading Screen:</b><br><ul><li>This Screen shows an loading animation until the main home page is loaded.</li></ul></li>
+  <li> <b>Loading Screen:</b><br>This Screen shows an loading animation until the main home page is loaded.<br>  
+       
+  </li>
   <li> <b>Home Screen:</b><br>This Comprises of Three sections:
     <ol type='a'>
       <li><b>Primary Clock:</b>
@@ -47,4 +49,9 @@ A Flutter Application that shows an interactive interface to view time in variou
                </ul>
         </li>
       </ol>
-  </ol>
+    </ol>
+   
+## Screenshots
+<img src="Screenshots/Screenshot_20200520-125812.jpg" width=25% height = 25% alt ='Loading Screen'>
+<img src="Screenshots/Screenshot_20200520-125713.jpg" width=25% height = 25% alt = 'Home Screen'>
+  
