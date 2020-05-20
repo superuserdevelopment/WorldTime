@@ -1,16 +1,50 @@
 # worldtime
 
-A new Flutter application.
+A Flutter Application that shows an interactive interface to view time in various timezones around the world
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+<ol>
+  <li> <b>Loading Screen:</b><br><ul><li>This Screen shows an loading animation until the main home page is loaded.</li></ul></li>
+  <li> <b>Home Screen:</b><br>This Comprises of Three sections:
+    <ol type='a'>
+      <li><b>Primary Clock:</b>
+          <ul>
+              <li>This section contains the time for the primary clock.</li>
+              <li>The time is in HH - MM - SS format.</li>
+              <li>This is a Column widget which contains 3 main information related to the primary timezone.
+                   <ul>
+                       <li>Name of the timezone</li>
+                       <li>An animated Digital Clock showing the current time in that timezone.</li>
+                       <li>The UTC offset of the primary timezone.</li>
+                   </ul>
+               </li>
+          </ul>
+        </li>
+       <li><b>First Timezone Carousel:</b>
+           <ul>
+               <li>This section contains a ListView of the first set of available timezones.</li>
+               <li>Each timezone is a Card widget which contains 3 main information related to each timezone
+                   <ul>
+                       <li>Name of the timezone</li>
+                       <li>An animated Analog Clock showing the current time in that timezone.</li>
+                       <li>An animated Digital Clock showing the current time in that timezone.</li>
+                   </ul>
+                   <b>Tapping on a particular timezone pushes it to the primary clock display</b>
+               </li>
+               </ul>
+        </li>
+        <li><b>Second Timezone Carousel:</b>
+           <ul>
+               <li>This section contains a ListView of the first set of available timezones.</li>
+               <li>Each timezone is a Card widget which contains 3 main information related to each timezone
+                   <ul>
+                       <li>Name of the timezone</li>
+                       <li>An animated Analog Clock showing the current time in that timezone.</li>
+                       <li>An animated Digital Clock showing the current time in that timezone.</li>
+                   </ul>
+                   <b>Tapping on a particular timezone pushes it to the primary clock display</b>
+               </li>
+               </ul>
+        </li>
+      </ol>
+  </ol>
